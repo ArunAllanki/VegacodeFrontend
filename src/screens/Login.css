@@ -1,0 +1,77 @@
+.Logging {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+  background-color: #f4f4f4;
+  background-image: linear-gradient(
+    var(--secondary-color),
+    var(--background-color)
+  );
+}
+
+.form-box {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+  text-align: center;
+  justify-content: center;
+
+  background-color: var(--primary-color);
+}
+
+.logo {
+  width: 75px;
+  height: auto;
+
+  margin-bottom: 10px;
+}
+
+.input-group {
+  margin-bottom: 10px;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.error {
+  color: red;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background: blue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.toggle-link {
+  color: blue;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.form-box img {
+  width: 80px;
+  height: auto;
+}
+
+.form-box button {
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+}
+
+.toggle-link {
+  color: var(--secondary-color);
+}

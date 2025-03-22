@@ -1,0 +1,206 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+.header {
+  background-color: var(--primary-color);
+  /* background-image: linear-gradient(
+    var(--primary-color),
+    var(--primary-color),
+    var(--primary-color),
+    var(--primary-color),
+    var(--accent-color)
+  ); */
+  padding: 10px 15px;
+  display: flex;
+  justify-content: space-between;
+  color: var(--secondary-color);
+  align-items: center;
+  box-shadow: 5px 5px 20px black;
+  position: sticky;
+  top: 0;
+  z-index: 99999;
+  width: 98vw;
+}
+
+nav {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  gap: 10%;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+  padding-left: 60px;
+  width: 85vw;
+}
+
+nav h3 {
+  height: 100%;
+  box-sizing: border-box;
+  transition: all ease 0.2s;
+}
+
+nav h3:hover {
+  cursor: pointer;
+  scale: 1.1;
+}
+
+.in {
+  color: black;
+}
+
+.carousel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  margin: auto;
+  height: 80vh;
+}
+
+.carousel img {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+}
+
+.carousel button {
+  background-color: transparent;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.info {
+  padding: 20vh 20vw 10vh 20vw;
+  text-align: justify;
+  font-size: x-large;
+  font-weight: 400;
+  height: 65vh;
+  background-image: linear-gradient(
+    var(--secondary-color),
+    var(--background-color)
+  );
+  /* background-color: var(--secondary-color); */
+}
+
+.info p {
+  margin-bottom: 2vh;
+  text-align: center;
+  -webkit-backdrop-filter: blur(10px); /* For Safari */
+}
+
+.ourImpact {
+  background-color: var(--background-color);
+  text-align: center;
+  padding: 5vh 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.impacts {
+  display: flex;
+  gap: 5vw;
+  color: var(--primary-color);
+  margin: 0;
+}
+
+.impact {
+  height: 50vh;
+  width: 20%;
+  border-radius: 25px;
+  justify-content: center;
+  align-content: center;
+}
+
+.impact h1 {
+  color: black;
+}
+
+.impact-text {
+  margin: 0;
+  padding: 0;
+}
+
+footer {
+  height: 40vh;
+  background-image: linear-gradient(
+    var(--background-color),
+    var(--primary-color),
+    black
+  );
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+  gap: 5vw;
+  justify-content: center;
+  height: 65vh;
+}
+
+footer h4 {
+  color: var(--primary-color);
+}
+footer p {
+  color: var(--secondary-color);
+  font-weight: 200;
+}
+
+.fEle {
+  display: flex;
+  gap: 5vw;
+  justify-content: center;
+  align-items: center;
+}
+
+footer .hr {
+  background-color: var(--secondary-color);
+  height: 2px;
+  width: 60vw;
+}
+
+.address {
+  color: var(--secondary-color);
+  font-weight: 200;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 0;
+}
+
+.connects img {
+  height: 20px;
+  filter: invert(100);
+  padding-left: 15px;
+}
+
+.connects img:hover {
+  cursor: pointer;
+}
+
+.bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 15vw;
+}
+
+.contacts {
+  margin-left: 10vw;
+
+  margin-right: 10vw;
+  margin-bottom: 10vh;
+  display: flex;
+  justify-content: space-between;
+}

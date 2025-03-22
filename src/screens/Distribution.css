@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-color: var(--primary-color);
+  /* background-image: linear-gradient(
+      var(--primary-color),
+      var(--primary-color),
+      var(--primary-color),
+      var(--primary-color),
+      var(--accent-color)
+    ); */
+  padding: 10px 15px;
+  display: flex;
+  justify-content: space-between;
+  color: var(--secondary-color);
+  align-items: center;
+  box-shadow: 0 0 10px grey;
+  /* width: 100vw; */
+}
+
+
+nav h3 {
+  height: 100%;
+  box-sizing: border-box;
+  transition: all ease 0.2s;
+}
+
+nav h3:hover {
+  cursor: pointer;
+  scale: 1.1;
+}
+
+.in {
+  color: black;
+}
